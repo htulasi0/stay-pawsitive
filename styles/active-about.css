@@ -1,0 +1,9 @@
+#active-about a {
+    border-bottom: 3px solid #93e5ab;
+}
+
+#active-about a:hover {
+    background-color: transparent;
+}
+
+
