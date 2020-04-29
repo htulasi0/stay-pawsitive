@@ -18,7 +18,7 @@ header {
     background-color: #f8fafa;
     box-shadow: 0 0 4px 0 #09464d;
     min-height: 60px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     display: flex;
 }
 
@@ -32,7 +32,7 @@ h1, h2 {
 
 
 p {
-    
+
 }
 
 .text-section {
@@ -62,7 +62,7 @@ nav {
 }
 
 nav ul {
-    margin: 0;   
+    margin: 0;
 }
 
 nav ul li {
@@ -86,12 +86,54 @@ nav ul li a:hover {
     background-color: #93e5ab;
 }
 
+.backlink {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #325258;
+    font-size: large;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.backlink:hover {
+    color: #08c03f;
+}
+
 .gallery {
     text-align: center;
 }
 
 .gallery img {
     margin: 15px;
+}
+
+br.clear {
+    height: 0px;
+    clear: both;
+}
+
+.confirm {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.confirm button {
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 3px 0 #09464d;
+    padding: 9px 14px;
+    font-size: 1.2em;
+    background-color: #93e5ab;
+}
+
+.confirm button:hover {
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.stars {
+    float: right;
 }
 
 #faq h3 {
