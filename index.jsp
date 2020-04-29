@@ -23,8 +23,8 @@
                 <img src="images/welcome.png" alt="welcome!">
                 <div class="text-section">
                     <p>
-                    From healthy food to shampoo and warm beds, "Stay Pawsitive" guarantees our products are safe,
-                    environmentally friendly, and ethically sourced. 100% of product sales through this site are donated
+                    From healthy food to shampoo and warm beds, <em><strong>Stay Pawsitive</strong></em> guarantees our products are safe,
+                    environmentally friendly, and ethically sourced. One hundred percent of product sales through this site are donated
                     to local and national level organizations that rescue, rehabilitate, and rehome animals affected by
                     natural and man-made disasters.
                     </p>
