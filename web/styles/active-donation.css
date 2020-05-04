@@ -1,0 +1,8 @@
+#active-donation a {
+    border-bottom: 3px solid #93e5ab;
+}
+
+#active-donation a:hover {
+    background-color: transparent;
+}
+

@@ -1,0 +1,8 @@
+#active-store a {
+    border-bottom: 3px solid #93e5ab;
+}
+
+#active-store a:hover {
+    background-color: transparent;
+}
+
