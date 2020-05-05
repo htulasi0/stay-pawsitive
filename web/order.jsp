@@ -13,19 +13,7 @@
 <body>
     <div id="page-container">
         <div id="content-wrap">
-            <header>
-                <img id="logo" src="images/logo.png" alt="logo" />
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="store.html">Store</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="donation.html">Donation</a></li>
-                        <li><a href="shipping.html">Shipping</a></li>
-                    </ul>
-                </nav>
-            </header>
+            <jsp:include page="includes/header.html" />
             <main>
                 <h1>Your Order:</h1>
                 <div class="text-section">
@@ -259,9 +247,7 @@
                 </form>
             </main>
         </div>
-        <footer>
-            <p class="text-section">Copyright 2020, Group 1</p>
-        </footer>
+        <jsp:include page="includes/footer.html" />
     </div>
 </body>
 
