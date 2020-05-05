@@ -15,7 +15,7 @@
 
                 <main>
                     <h1>Welcome!</h1>
-                    <img src="images/welcome.png" alt="welcome!">
+                    <img src="images/cover-photo.jpg" alt="Welcome!" id="cover-photo">
                     <div class="text-section">
                         <p>
                             From healthy food to shampoo and warm beds, <em><strong>Stay Pawsitive</strong></em> guarantees our products are safe,
