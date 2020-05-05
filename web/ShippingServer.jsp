@@ -1,4 +1,4 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+ <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="javax.servlet.http.HttpSession"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="java.sql.DriverManager"%>
@@ -178,8 +178,13 @@
         // If there is no error.
         conn.commit();
         
+        
+         session.setAttribute("productId", "");
+            session.setAttribute("productName", "");
+            session.setAttribute("quantity", "");
+            session.setAttribute("price", "");
         //This command redirect the page to Thank you order page. 
-        response.sendRedirect("thankyouorder.html");  
+        response.sendRedirect("thankyouorder.jsp");  
 
     } catch (Exception e) {
         
