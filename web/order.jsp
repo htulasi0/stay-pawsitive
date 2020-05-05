@@ -1,40 +1,30 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="keywords" content="web, website, group project" />
-    <title>Stay Pawsitive: Order</title>
-    <link href="styles/main.css" rel="stylesheet" />
-    <link href="styles/order.css" rel="stylesheet" />
-    <script src="scripts/order.js"></script>
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="web, website, group project" />
+        <title>Stay Pawsitive: Order</title>
+        <link href="styles/main.css" rel="stylesheet" />
+        <link href="styles/order.css" rel="stylesheet" />
+        <link href="styles/active-order.css" rel="stylesheet" />
+        <script src="scripts/order.js"></script>
+    </head>
 
-<body>
-    <div id="page-container">
-        <div id="content-wrap">
-            <header>
-                <img id="logo" src="images/logo.png" alt="logo" />
-                <nav>
-                    <ul>
-                        <li><a href="index.jsp">Home</a></li>
-                        <li><a href="about.jsp">About Us</a></li>
-                        <li><a href="store.jsp">Store</a></li>
-                        <li><a href="faq.jsp">FAQ</a></li>
-                        <li><a href="donation.jsp">Donation</a></li>
-                        <li><a href="shipping.jsp">Shipping</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <main>
+    <body>
+        <div id="page-container">
+            <div id="content-wrap">
+                <jsp:include page="includes/header.html" />
+                <main>
                 <h1>Your Order:</h1>
                 <div class="text-section">
                     <img src="images/productsml.png" alt="" class="product-order">
                     <div class="product-order">
-                        <h3><%= session.getAttribute("productName")%></h3>                      
+                        <h3><%= session.getAttribute("productName")%></h3>
                     </div>
                     <div class="quantity-price">
-                        <div class="quantity">Quantity: <span id="quantity"><%= session.getAttribute("quantity")%></span></div>                        
+                        <div class="quantity">Quantity: <span id="quantity"><%= session.getAttribute("quantity")%></span></div>
                         <div class="totals">Total Price: <span id="totals"><%= session.getAttribute("price")%></span></div>
                     </div>
                     <br class="clear" />
@@ -256,9 +246,7 @@
                 </form>
             </main>
         </div>
-        <footer>
-            <p class="text-section">Copyright 2020, Group 1</p>
-        </footer>
+        <jsp:include page="includes/footer.html" />
     </div>
 </body>
 
