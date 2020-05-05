@@ -20,14 +20,13 @@ header img, header nav {
     float: left;
     margin-right: 20px;
     margin-left: 20px;
-} 
+}
 
 #logo {
     display: block;
-    width: 96px;
-    height: 96px;
-    padding-left: 20px;
-    padding-top: 2px;
+    width: 146px;
+    height: 103px;
+    padding-left: 10px;
     margin-right: -5px;
 }
 
