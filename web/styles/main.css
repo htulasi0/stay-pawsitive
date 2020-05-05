@@ -13,7 +13,7 @@ h1, h2 {
 }
 
 h1 {
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 header img, header nav {
@@ -102,6 +102,11 @@ nav ul li a:hover,
 
 .gallery img {
     margin: 15px;
+}
+
+form img {
+  width: 400px;
+  height: 400px;
 }
 
 br.clear {

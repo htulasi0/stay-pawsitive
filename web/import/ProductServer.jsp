@@ -9,7 +9,8 @@
 <!DOCTYPE html>
 <%
 
-     Connection aConnection = null;
+    Connection conn = null;
+    
 
     String driver = "org.apache.derby.jdbc.ClientDataSource";
 
@@ -23,7 +24,6 @@
         method = request.getMethod();
 
         if (method.equalsIgnoreCase("POST")) {
-            //Below code get the user inputs
             String productId = request.getParameter("productId");
             System.out.println("########### Product ID $$$$$$$$$$$" + productId);
             String productName = request.getParameter("productName");
@@ -33,8 +33,12 @@
             String productPrice = request.getParameter("price");
             System.out.println("########### Product Quantity $$$$$$$$$$$" + productPrice);
 
+            Connection aConnection = null;
+            // try 
+
             Class.forName(driver);
-            //Setup the connection with the DB and insert data into PRODUCT table
+            //Setup the connection with the DB
+
             aConnection = DriverManager.getConnection(dbURL, user, password);
             aConnection.setAutoCommit(false);
             System.out.println("DB Connection successful");
@@ -52,19 +56,17 @@
             aStatement.executeUpdate();
             aConnection.commit();
 
-            //This command set the product attribute value. So we can get that value on UI.
             session.setAttribute("productId", productId);
             session.setAttribute("productName", productName);
             session.setAttribute("quantity", productQuantity);
             session.setAttribute("price", productPrice);
 
-            //This command redirect the page to order page.
             response.sendRedirect("order.jsp");
         }
     } catch (Exception e) {
         e.printStackTrace();
         try {
-            aConnection.rollback();
+            conn.rollback();
         } catch (Exception re) {
             re.printStackTrace();
         }
@@ -72,7 +74,7 @@
         // try to close the connection...
         try {
             // close the connection...
-            aConnection.close();
+            conn.close();
         } catch (Exception e) {
             e.printStackTrace();
         }

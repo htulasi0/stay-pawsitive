@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : index
     Created on : Apr 23, 2020, 2:41:31 AM
     Author     : kcheek04
@@ -19,7 +19,7 @@
                 <jsp:include page="includes/header.html" />
 
                 <main>
-                    <h1>Your Order:</h1>
+                    <h1>Products</h1>
                     <div class="text-section">
                         <img src="images/product.png" alt="Grain-Free Recipe for Dog" class="product-order">
                         <div class="product-order">
@@ -59,18 +59,18 @@
                         <br class="clear" />
                     </div>
                     <div class="text-section">
-                        <img src="images/product.png" alt="Relaxing Dogs or Cats Bed" class="product-order">
+                        <img src="images/relaxing-bed-preview.png" alt="Relaxing Dog/Cat Bed" class="product-order">
                         <div class="product-order">
-                            <h2>Relaxing Dogs or Cats Bed</h2>
+                            <h2>Relaxing Dog/Cat Bed</h2>
                             <p>Color:
-                                Grey, pink,Red, coffee </p>
+                                Grey, Pink, Red, Coffee </p>
                             <p>Size:
                                 Small: 26"L x 19"W
                                 Medium: 32"L x 22"W
                                 Large: 40"L x 27"W
                                 X-Large: 46"L x 32"W </p>
                             <p>Pamper your pet with our self-warming and the soothing bed that is finished with a luxurious faux
-                                shag fur and mimics the cozy comfort of a motherâ€™s fur coat! Paired with deep crevices that
+                                shag fur and mimics the cozy comfort of a mother's fur coat! Paired with deep crevices that
                                 allow your pet to burrow, your fury kids will have full, restful sleep for improved behavior and
                                 better health.</p>
                             <div>
@@ -106,4 +106,3 @@
         </div>
     </body>
 </html>
-

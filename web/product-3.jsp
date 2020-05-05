@@ -19,13 +19,13 @@
                         <input type="hidden" name="productId" value="3" />
                         <input type="hidden" name="price" id="price" value="0">
                         <input type="hidden" name="orderAmount" id="orderAmount" value="0" />
-                        <input type="hidden" name="productName" value="Relaxing Dogs or Cats Bed">
+                        <input type="hidden" name="productName" value="Relaxing Dog/Cat Bed">
                         <input type="hidden" name="productImage" value="productsml.png">
                         <h1>
-                            Relaxing Dogs or Cats Bed
+                            Relaxing Dog/Cat Bed
                             <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                         </h1>
-                        <img src="images/productbg.png" alt="Relaxing Dogs or Cats Bed">
+                        <img src="images/relaxing-bed.png" alt="Relaxing Dog/Cat Bed">
                         <div class="parameters text-section">
                             <table class="product-parameters">
                                 <tbody>

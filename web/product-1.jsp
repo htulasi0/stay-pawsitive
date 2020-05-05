@@ -22,10 +22,10 @@
                         <input type="hidden" name="productName" value="Grain-Free Recipe for Dog">
                         <input type="hidden" name="productImage" value="productsml.png">
                         <h1>
-                            Grain-Free Recipe for Dog
+                            Grain-Free Recipe for Dogs
                             <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                         </h1>
-                        <img src="images/productbg.png" alt="Grain-Free Recipe for Dog">
+                        <img src="images/productbg.png" alt="Grain-Free Recipe for Dogs">
                         <div class="parameters text-section">
                             <table class="product-parameters">
                                 <tbody>

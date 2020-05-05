@@ -1,37 +1,46 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="keywords" content="web, website, group project" />
-        <title>Stay Pawsitive: Order</title>
-        <link href="styles/main.css" rel="stylesheet" />
-        <link href="styles/order.css" rel="stylesheet" />
-        <link href="styles/active-order.css" rel="stylesheet" />
-        <script src="scripts/order.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="web, website, group project" />
+    <title>Stay Pawsitive: Order</title>
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/order.css" rel="stylesheet" />
+    <script src="scripts/order.js"></script>
+</head>
 
-    <body>
-        <div id="page-container">
-            <div id="content-wrap">
-                <jsp:include page="includes/header.html" />
-                <main>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <img id="logo" src="images/logo.png" alt="logo" />
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="store.html">Store</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                        <li><a href="shipping.html">Shipping</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
                 <h1>Your Order:</h1>
                 <div class="text-section">
                     <img src="images/productsml.png" alt="" class="product-order">
                     <div class="product-order">
-                        <h3><%= session.getAttribute("productName")%></h3>
+                        <h3><%= session.getAttribute("productName")%></h3>                      
                     </div>
                     <div class="quantity-price">
-                        <div class="quantity">Quantity: <span id="quantity"><%= session.getAttribute("quantity")%></span></div>
+                        <div class="quantity">Quantity: <span id="quantity"><%= session.getAttribute("quantity")%></span></div>                        
                         <div class="totals">Total Price: <span id="totals"><%= session.getAttribute("price")%></span></div>
                     </div>
                     <br class="clear" />
                 </div>
                 <form action="ShippingServer.jsp" method="POST">
                     <input type="hidden" name="productId" id="productId" value="<%= session.getAttribute("productId")%>">
-                    <input type="hidden" name="productName" id="productName" value="<%= session.getAttribute("productName")%>">
                     <input type="hidden" name="quantity" id="quantity" value="<%= session.getAttribute("quantity")%>">
                     <input type="hidden" name="orderTotal" id="orderTotal" value="0" />
                     <input type="hidden" name="orderAmount" id="orderAmount" value="<%= session.getAttribute("price")%>" />
@@ -93,9 +102,8 @@
                         </div>
 
                         <br class="clear" />
-                    </div>
                         <div id="shippingInformation">
-                            <h2>Customer information:</h2>
+                            <h2>Shipping information:</h2>
                             <div class="address">
                                 <div>
                                     <label for="fname">First Name:</label>
@@ -181,6 +189,7 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                     <div class="payment">
                         <h2>Payment information:</h2>
                         <div class="payment-inner">
@@ -246,7 +255,9 @@
                 </form>
             </main>
         </div>
-        <jsp:include page="includes/footer.html" />
+        <footer>
+            <p class="text-section">Copyright 2020, Group 1</p>
+        </footer>
     </div>
 </body>
 
