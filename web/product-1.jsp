@@ -65,7 +65,7 @@
                             <div class="confirm">
                                 <button>BUY NOW</button>
                             </div>
-                            <a href="store.html" class="backlink">Back to Store</a>
+                            <a href="store.jsp" class="backlink">Back to Store</a>
                         </div>
 
                         <br class="clear" />
@@ -91,4 +91,3 @@
         </div>
     </body>
 </html>
-

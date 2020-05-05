@@ -9,29 +9,29 @@
         <link href="styles/active-home.css" rel="stylesheet" />
     </head>
     <body>
-    <div id="page-container">
-        <div id="content-wrap">
-            <jsp:include page="includes/header.html" />
-            
-            <main>
-                <h1>Welcome!</h1>
-                <img src="images/welcome.png" alt="welcome!">
-                <div class="text-section">
-                    <p>
-                    From healthy food to shampoo and warm beds, <em><strong>Stay Pawsitive</strong></em> guarantees our products are safe,
-                    environmentally friendly, and ethically sourced. One hundred percent of product sales through this site are donated
-                    to local and national level organizations that rescue, rehabilitate, and rehome animals affected by
-                    natural and man-made disasters.
-                    </p>
-                </div>
-                <div class="gallery">
-                    <img src="images/product.png" alt="product #1">
-                    <img src="images/product.png" alt="product #1">
-                    <img src="images/product.png" alt="product #1">
-                </div>
-            </main>
-        </div>
+        <div id="page-container">
+            <div id="content-wrap">
+                <jsp:include page="includes/header.html" />
+
+                <main>
+                    <h1>Welcome!</h1>
+                    <img src="images/welcome.png" alt="welcome!">
+                    <div class="text-section">
+                        <p>
+                            From healthy food to shampoo and warm beds, <em><strong>Stay Pawsitive</strong></em> guarantees our products are safe,
+                            environmentally friendly, and ethically sourced. One hundred percent of product sales through this site are donated
+                            to local and national level organizations that rescue, rehabilitate, and rehome animals affected by
+                            natural and man-made disasters.
+                        </p>
+                    </div>
+                    <div class="gallery">
+                        <img src="images/product.png" alt="product #1">
+                        <img src="images/product.png" alt="product #1">
+                        <img src="images/product.png" alt="product #1">
+                    </div>
+                </main>
+            </div>
             <jsp:include page="includes/footer.html" />
-    </div>
-</body>
+        </div>
+    </body>
 </html>

@@ -16,64 +16,61 @@
 
                 <main>
                     <form action="ProductServer.jsp" method="POST">
-                    <input type="hidden" name="productId" value="4" />
-                    <input type="hidden" name="price" id="price" value="0">
-                    <input type="hidden" name="orderAmount" id="orderAmount" value="0" />
-                    <input type="hidden" name="productName" value="Grain-Free Freeze-Dried Cat Food">
-                    <input type="hidden" name="productImage" value="productsml.png">
-                    <h1>
-                        Grain-Free Freeze-Dried Cat Food
-                        <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
-                    </h1>
-                    <img src="images/productbg.png" alt="Grain-free freeze-dried cat food">
-                    <div class="parameters text-section">
-                        <table class="product-parameters">
-                            <tbody>
-                                <tr>
-                                    <td><label for="size">Size:</label></td>
-                                    <td>
-                                        <select name="size" id="size">
-                                            <option value="3.5">3.5-oz bag</option>
-                                            <option value="11">11-oz bag</option>
-                                        </select>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><label for="quantity">Quantity:</label></td>
-                                    <td>
-                                        <input type="number" value="1" id="quantity" name="quantity" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><label>Price:</label></td>
-                                    <td><span id="productPrice"></span></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <div class="confirm">
-                            <button>BUY NOW</button>
+                        <input type="hidden" name="productId" value="4" />
+                        <input type="hidden" name="price" id="price" value="0">
+                        <input type="hidden" name="orderAmount" id="orderAmount" value="0" />
+                        <input type="hidden" name="productName" value="Grain-Free Freeze-Dried Cat Food">
+                        <input type="hidden" name="productImage" value="productsml.png">
+                        <h1>
+                            Grain-Free Freeze-Dried Cat Food
+                            <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+                        </h1>
+                        <img src="images/productbg.png" alt="Grain-free freeze-dried cat food">
+                        <div class="parameters text-section">
+                            <table class="product-parameters">
+                                <tbody>
+                                    <tr>
+                                        <td><label for="size">Size:</label></td>
+                                        <td>
+                                            <select name="size" id="size">
+                                                <option value="3.5">3.5-oz bag</option>
+                                                <option value="11">11-oz bag</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="quantity">Quantity:</label></td>
+                                        <td>
+                                            <input type="number" value="1" id="quantity" name="quantity" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>Price:</label></td>
+                                        <td><span id="productPrice"></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="confirm">
+                                <button>BUY NOW</button>
+                            </div>
+                            <a href="store.jsp" class="backlink">Back to Store</a>
                         </div>
-                        <a href="store.html" class="backlink">Back to Store</a>
-                    </div>
 
-                    <br class="clear" />
-                    <p>Made from barn raised chicken, free range lamb. </p>
-                    <p>Does not contain wheat, rice, soy or gluten. </p>
-                    <p>It is a nutritionally sound and species appropriate diet which can therefore be fed to cats at
-                        any stage of life: from kittens to seniors, during pregnancy and lactation. </p>
-                    <p>A natural source of vitamins, minerals, and antioxidants. </p>
-                    <p>This raw meal is packed with the protein and energy your cat needs.</p>
-                    <p>We recommend that you always reconstitute Stay Pawsitive Freeze-dried with warm water before
-                        feeding. </p>
-                    <p>Ingredients: Chicken, Lamb Heart, Lamb Kidney, Lamb Liver, Lamb Blood, Flaxseed Flakes, New
-                        Zealand Green Mussel, Dried Kelp, Taurine, Vitamin E Supplement, Magnesium Oxide, Zinc
-                        Proteinate, Copper Proteinate, Manganese Proteinate, Thiamine Mononitrate, Vitamin D3
-                        Supplement, Folic Acid.</p>
-                    <p>Caloric Content: 4857 kcal/kg, 185 kcal/cup.</p>
-                </form>
-
-
-
+                        <br class="clear" />
+                        <p>Made from barn raised chicken, free range lamb. </p>
+                        <p>Does not contain wheat, rice, soy or gluten. </p>
+                        <p>It is a nutritionally sound and species appropriate diet which can therefore be fed to cats at
+                            any stage of life: from kittens to seniors, during pregnancy and lactation. </p>
+                        <p>A natural source of vitamins, minerals, and antioxidants. </p>
+                        <p>This raw meal is packed with the protein and energy your cat needs.</p>
+                        <p>We recommend that you always reconstitute Stay Pawsitive Freeze-dried with warm water before
+                            feeding. </p>
+                        <p>Ingredients: Chicken, Lamb Heart, Lamb Kidney, Lamb Liver, Lamb Blood, Flaxseed Flakes, New
+                            Zealand Green Mussel, Dried Kelp, Taurine, Vitamin E Supplement, Magnesium Oxide, Zinc
+                            Proteinate, Copper Proteinate, Manganese Proteinate, Thiamine Mononitrate, Vitamin D3
+                            Supplement, Folic Acid.</p>
+                        <p>Caloric Content: 4857 kcal/kg, 185 kcal/cup.</p>
+                    </form>
 
                 </main>
             </div>
@@ -81,4 +78,3 @@
         </div>
     </body>
 </html>
-

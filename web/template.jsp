@@ -8,19 +8,19 @@
         <link href="styles/main.css" rel="stylesheet" />
     </head>
     <body>
-    <div id="page-container">
-        <div id="content-wrap">
-            <jsp:include page="includes/header.html" />
-            
-            <main>
-                
-                
-                
-                
-            </main>
-        </div>
+        <div id="page-container">
+            <div id="content-wrap">
+                <jsp:include page="includes/header.html" />
+
+                <main>
+
+
+
+
+                </main>
+            </div>
             <jsp:include page="includes/footer.html" />
-    </div>
-</body>
+        </div>
+    </body>
 </html>
 
