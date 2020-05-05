@@ -13,7 +13,19 @@
 <body>
     <div id="page-container">
         <div id="content-wrap">
-            <jsp:include page="includes/header.html" />
+            <header>
+                <img id="logo" src="images/logo.png" alt="logo" />
+                <nav>
+                    <ul>
+                        <li><a href="index.jsp">Home</a></li>
+                        <li><a href="about.jsp">About Us</a></li>
+                        <li><a href="store.jsp">Store</a></li>
+                        <li><a href="faq.jsp">FAQ</a></li>
+                        <li><a href="donation.jsp">Donation</a></li>
+                        <li><a href="shipping.jsp">Shipping</a></li>
+                    </ul>
+                </nav>
+            </header>
             <main>
                 <h1>Your Order:</h1>
                 <div class="text-section">
@@ -30,7 +42,6 @@
                 <form action="ShippingServer.jsp" method="POST">
                     <input type="hidden" name="productId" id="productId" value="<%= session.getAttribute("productId")%>">
                     <input type="hidden" name="quantity" id="quantity" value="<%= session.getAttribute("quantity")%>">
-                    <input type="hidden" name="productName" id="productName" value="<%= session.getAttribute("productName")%>">
                     <input type="hidden" name="orderTotal" id="orderTotal" value="0" />
                     <input type="hidden" name="orderAmount" id="orderAmount" value="<%= session.getAttribute("price")%>" />
                     <input type="hidden" name="tax" id="tax" value="0" />
@@ -91,8 +102,9 @@
                         </div>
 
                         <br class="clear" />
+                    </div>
                         <div id="shippingInformation">
-                            <h2>Shipping information:</h2>
+                            <h2>Customer information:</h2>
                             <div class="address">
                                 <div>
                                     <label for="fname">First Name:</label>
@@ -178,7 +190,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                     <div class="payment">
                         <h2>Payment information:</h2>
                         <div class="payment-inner">
@@ -199,16 +210,13 @@
                             </div>
                             <div>
                                 <label for="ccnum">Card Number:</label>
-                                 <input type="text" id="ccnum" name="cardnumber" 
-                                    pattern="[0-9]{16}" required title="The credit card number should be 16 digits long">
+                                <input type="text" id="ccnum" name="cardnumber" required>
                             </div>
                             <div>
                                 <label for="expdate">Expiration Date:</label>
-                                <input type="text" id="expdate" name="expdate" required
-                                    pattern="[0-1][0-9]\/[0-9]{2}" title="Should be in format 'MM/YY'">
+                                <input type="text" id="expdate" name="expdate" required>
                                 <label for="cvv" class="second">CVV:</label>
-                                <input type="text" id="cvv" name="cvv" required
-                                    pattern="[0-9]{3,4}" title="CVV code should be 3 or 4 digits long">
+                                <input type="text" id="cvv" name="cvv" required>
                             </div>
                         </div>
                     </div>
@@ -247,7 +255,9 @@
                 </form>
             </main>
         </div>
-        <jsp:include page="includes/footer.html" />
+        <footer>
+            <p class="text-section">Copyright 2020, Group 1</p>
+        </footer>
     </div>
 </body>
 
