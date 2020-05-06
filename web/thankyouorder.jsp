@@ -14,7 +14,7 @@
 
                 <main>
                     <h1>Thank you for your order!</h1>
-                    <img src="images/welcome.png" alt="thank you!">
+                    <img src="images/thank-you.png" alt="thank you!" id="cover-photo">
 
 
 
@@ -25,4 +25,3 @@
         </div>
     </body>
 </html>
-
