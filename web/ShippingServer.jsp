@@ -114,8 +114,8 @@
 
         //Fromat order total to 2 digit decimal.
         double tempOrderTotal = Double.valueOf(orderTotal);
-        DecimalFormat dec = new DecimalFormat("#0.00");
-        orderTotal = dec.format(tempOrderTotal);
+        DecimalFormat dec2 = new DecimalFormat("#0.00");
+        orderTotal = dec2.format(tempOrderTotal);
         preparedStmt2.setDouble(2, Double.valueOf(orderTotal));
         preparedStmt2.executeUpdate();
 
