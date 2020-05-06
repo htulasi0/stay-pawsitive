@@ -97,10 +97,19 @@ div.delivery-option,
     font-size: 1.5em;
     padding: 20px 40px;
     margin: 0 15px;
+    text-align: center;
 }
 
 .donation-amount span.active {
     background-color: #93e5ab;
+}
+
+.donation-amount span:hover, .donation-amount input:hover {
+  cursor: pointer;
+}
+
+.donation-amount input[type=text]:focus {
+  background-color: #93E5AB;
 }
 
 h2.delivery-option {
