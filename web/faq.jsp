@@ -30,7 +30,7 @@
                         <hr>
                         <div>
                             <h3>Can I cancel my order?</h3>
-                            <p>You may request an order cancellation by contacting support@staypawsitive.org with your order number. Please be aware that we cannot cancel an order once it has been shipped, so you may need to request a return or exchange instead.
+                            <p>You may request an order cancellation by contacting <a href="mailto:support@staypawsitive.org">support@staypawsitive.org</a> with your order number. Please be aware that we cannot cancel an order once it has been shipped, so you may need to request a return or exchange instead.
                             </p>
                         </div>
                         <hr>
@@ -41,14 +41,14 @@
                         </div>
                         <hr>
                         <div>
-                            <h3>Does Stay Pawsitive accept donations? If so, what and how can I donate?
+                            <h3>Does <em>Stay Pawsitive</em> accept donations? If so, what and how can I donate?
                             </h3>
                             <p>We accept monetary donations and gifts of practical supplies for use in disaster relief efforts. You can make a one-time or recurring monthly donation here.
                             </p>
                         </div>
                         <hr>
                         <div>
-                            <h3>What does Stay Pawsitive do with the donations they receive?</h3>
+                            <h3>What does <em>Stay Pawsitive</em> do with the donations they receive?</h3>
                             <p>We use donated funds to purchase supplies such as towels, shampoo, and clean drinking water for animals who are rescued. Other practical supplies such as leashes, harnesses, and pet carriers are purchased for transporting animals to a safe location.
                             </p>
                         </div>
@@ -60,24 +60,24 @@
                         </div>
                         <hr>
                         <div>
-                            <h3>Are my donations to Stay Pawsitive tax deductible?</h3>
-                            <p>Yes, Stay Pawsitive is a registered 501(c)(3) non-profit as recognized by the IRS. Donors of supplies will receive a tax receipt at the time of donation, and monetary donors will receive a tax receipt within the first month of the new year.
+                            <h3>Are my donations to <em>Stay Pawsitive</em> tax deductible?</h3>
+                            <p>Yes, <em><strong>Stay Pawsitive</strong></em> is a registered 501(c)(3) non-profit as recognized by the IRS. Donors of supplies will receive a tax receipt at the time of donation, and monetary donors will receive a tax receipt within the first month of the new year.
                             </p>
                         </div>
                         <hr>
                         <div>
-                            <h3>How is Stay Pawsitive funded?</h3>
+                            <h3>How is <em>Stay Pawsitive</em> funded?</h3>
                             <p>Our organization is funded through direct donations and product sales.</p>
                         </div>
                         <hr>
                         <div>
-                            <h3>I would like to volunteer for Stay Pawsitive. How can I find out more?﻿</h3>
-                            <p>For a list of current volunteering opportunities in your area contact volunteer@staypawsitive.org.</p>
+                            <h3>I would like to volunteer for <em>Stay Pawsitive</em>. How can I find out more?﻿</h3>
+                            <p>For a list of current volunteering opportunities in your area contact <a href="mailto:volunteer@staypawsitive.org"> volunteer@staypawsitive.org</a>.</p>
                         </div>
                         <hr>
                         <div>
                             <h3>What if I have questions not answered on this FAQ page?</h3>
-                            <p>You can contact our support team via email at support@staypawsitive.org or call during business hours (9AM - 6PM EST Monday through Saturday).
+                            <p>You can contact our support team via email at <a href="mailto:support@staypawsitive.org">support@staypawsitive.org</a> or call during business hours (9AM - 6PM EST Monday through Saturday).
                             </p>
                         </div>
                     </div>
@@ -87,4 +87,3 @@
         </div>
     </body>
 </html>
-
