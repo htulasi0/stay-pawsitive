@@ -6,10 +6,11 @@
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.SQLException"%>
+<%@page import="java.text.DecimalFormat"%>
 <!DOCTYPE html>
 <%
 
-     Connection aConnection = null;
+    Connection aConnection = null;
 
     String driver = "org.apache.derby.jdbc.ClientDataSource";
 
@@ -31,7 +32,7 @@
             String productQuantity = request.getParameter("quantity");
             System.out.println("########### Product Quantity $$$$$$$$$$$" + productQuantity);
             String productPrice = request.getParameter("price");
-            System.out.println("########### Product Quantity $$$$$$$$$$$" + productPrice);
+            System.out.println("########### Product Price $$$$$$$$$$$" + productPrice);
 
             Class.forName(driver);
             //Setup the connection with the DB and insert data into PRODUCT table
@@ -47,6 +48,10 @@
             aStatement.setInt(1, Integer.valueOf(productId));
             aStatement.setString(2, productName);
             aStatement.setInt(3, Integer.valueOf(productQuantity));
+
+            double tempProductPrice = Double.valueOf(productPrice);
+            DecimalFormat dec3 = new DecimalFormat("#0.00");
+            productPrice = dec3.format(tempProductPrice);
             aStatement.setDouble(4, Double.valueOf(productPrice));
 
             aStatement.executeUpdate();
