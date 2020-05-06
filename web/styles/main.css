@@ -16,6 +16,14 @@ h1 {
     margin-left: 0%;
 }
 
+a {
+  color: #4E878C;
+}
+
+a:hover {
+  color: #65B891;
+}
+
 header img, header nav {
     float: left;
     margin-right: 20px;
