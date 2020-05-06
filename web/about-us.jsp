@@ -15,33 +15,34 @@
 
                 <main>
                     <h1>About Us</h1>
+                    <img src="images/about-us.png" alt="about-us" id="cover-photo" >
                     <div class="text-section">
                         <p>&nbsp;&nbsp;&nbsp;
-                        <em><strong>Stay Pawsitive</strong></em> is a non-profit 
-                        501(c)(3) organization  based in Charlotte, North Carolina. 
-                        We are a group of passionate animal loving volunteers who 
-                        strongly desire to be the hands and voices of those who 
-                        cannot speak for themselves in times of disaster. We believe 
-                        that our lives are enriched by the services and resources we 
-                        provide to animal rescue and disaster relief groups. Our partnership 
+                        <em><strong>Stay Pawsitive</strong></em> is a non-profit
+                        501(c)(3) organization  based in Charlotte, North Carolina.
+                        We are a group of passionate animal loving volunteers who
+                        strongly desire to be the hands and voices of those who
+                        cannot speak for themselves in times of disaster. We believe
+                        that our lives are enriched by the services and resources we
+                        provide to animal rescue and disaster relief groups. Our partnership
                         with these organizations throughout the United States helps save lives.
                     </p>
                     <p>&nbsp;&nbsp;&nbsp;
-                        At <em><strong>Stay Pawsitive</strong></em> our main objective 
-                        is to support animals affected by disaster events. As a non-profit 
-                        organization, all proceeds raised through our online store support 
-                        local and national level animal rescue organizations. Our products 
-                        are made locally using ethically sourced materials and are always 
-                        plant based to decrease our environmental footprint. We also ensure 
-                        that everything in our store is tested and pet friendly with no 
+                        At <em><strong>Stay Pawsitive</strong></em> our main objective
+                        is to support animals affected by disaster events. As a non-profit
+                        organization, all proceeds raised through our online store support
+                        local and national level animal rescue organizations. Our products
+                        are made locally using ethically sourced materials and are always
+                        plant based to decrease our environmental footprint. We also ensure
+                        that everything in our store is tested and pet friendly with no
                         artificial dyes or perfumes.
 
                     </p>
                     <p>&nbsp;&nbsp;&nbsp;
-                        All of our products, from our <em><strong>Stay Pawsitive</strong></em> brand Grain-Free 
-                        Dog Food to our Natural Defense Herbal Flea Shampoo are also 
-                        donated toward disaster relief efforts such as The Humane Society 
-                        and Best Friends Save Them All to provide the best care for our 
+                        All of our products, from our <em><strong>Stay Pawsitive</strong></em> brand Grain-Free
+                        Dog Food to our Easy Defense Herbal Flea Shampoo are also
+                        donated toward disaster relief efforts such as The Humane Society
+                        and Best Friends Save Them All to provide the best care for our
                         animal friends out in the world that need our help.
                     </p>
                     </div>
@@ -54,4 +55,3 @@
         </div>
     </body>
 </html>
-
