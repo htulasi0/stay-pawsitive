@@ -7,6 +7,7 @@
         <title>Stay Pawsitive: </title>
         <link href="styles/main.css" rel="stylesheet" />
         <link href="styles/active-donation.css" rel="stylesheet" />
+        <link href="styles/order.css" rel="stylesheet" />
     </head>
     <body>
         <div id="page-container">
@@ -15,6 +16,7 @@
 
                 <main>
                     <h1>Donate</h1>
+                    <img src="images/donation.png" alt="Every gift saves lives" id="cover-photo" >
                     <h2>Every Gift Saves Lives!</h2>
                     <p>Since 2020 we have worked with animal lovers like you to protect animals from disasters on a national
                         scale. Stay Pawsitive has helped save thousands of animals in crisis, and you can help too! Your
@@ -99,5 +101,6 @@
             </div>
             <jsp:include page="includes/footer.html" />
         </div>
+        <script src="scripts/donation.js"></script>
     </body>
 </html>
