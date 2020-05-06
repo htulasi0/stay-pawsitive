@@ -25,7 +25,7 @@
                             Herbal Flea Shampoo for Dogs & Cats
                             <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                         </h1>
-                        <img src="images/productbg.png" alt="Herbal Flea Shampoo for Dogs & Cats">
+                        <img src="images/herbal-shampoo.png" alt="Herbal Flea Shampoo for Dogs & Cats">
                         <div class="parameters text-section">
                             <table class="product-parameters">
                                 <tbody>
@@ -48,7 +48,7 @@
                         </div>
 
                         <br class="clear" />
-                        <p>Herbal Defense flea Shampoo & Conditioner is made from nourising organic botanical extracts and natural
+                        <p>Natural defense herbal flea Shampoo is made from nourising organic botanical extracts and natural
                             essntial oils to leave your pet's coat clean,soft & shiny. The non-drying formula id perfect for
                             pets of all ages.</p>
                         <p>Highlights: Powerful, safe way to prevent fleas, ticks, and mosquitoes

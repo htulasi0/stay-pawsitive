@@ -4,7 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="keywords" content="web, website, group project" />
-        <title>Stay Pawsitive: Grain-Free Recipe for Dog</title>
+        <title>Stay Pawsitive: Grain-Free Recipe for Dogs</title>
         <link href="styles/main.css" rel="stylesheet" />
         <link href="styles/product.css" rel="stylesheet" />
         <script src="scripts/product-1.js"></script>
@@ -25,7 +25,7 @@
                             Grain-Free Recipe for Dogs
                             <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                         </h1>
-                        <img src="images/productbg.png" alt="Grain-Free Recipe for Dogs">
+                        <img src="images/dog-food.png" alt="Grain-Free Recipe for Dogs">
                         <div class="parameters text-section">
                             <table class="product-parameters">
                                 <tbody>
@@ -77,9 +77,7 @@
                             (max) 12%.</p>
                         <p>Why we like it: This dog food option is great because it is clean and natural. The first
                             ingredient
-                            in this dog food is always a high quality protein, their food is grain-free for easy digestion,
-                            has
-                            a poultry-free recipe, and is made locally with great ingredients. More importantly, we like
+                            in this dog food is always a high quality protein. This formula is grain-free and is made locally with great ingredients. More importantly, we like
                             Stay Pawsitive dog food because it aids better health for dogs, especially with their coat and
                             skin.</p>
 

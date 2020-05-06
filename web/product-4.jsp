@@ -25,7 +25,7 @@
                             Grain-Free Freeze-Dried Cat Food
                             <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                         </h1>
-                        <img src="images/productbg.png" alt="Grain-free freeze-dried cat food">
+                        <img src="images/cat-food.png" alt="Grain-free freeze-dried cat food">
                         <div class="parameters text-section">
                             <table class="product-parameters">
                                 <tbody>

@@ -21,9 +21,9 @@
                 <main>
                     <h1>Products</h1>
                     <div class="text-section">
-                        <img src="images/product.png" alt="Grain-Free Recipe for Dog" class="product-order">
+                        <img src="images/dog-food-preview.png" alt="Grain-Free Recipe for Dogs" class="product-order">
                         <div class="product-order">
-                            <h2>Grain-Free Recipe for Dog</h2>
+                            <h2>Grain-Free Recipe for Dogs</h2>
                             <p>Flavors: Chicken & Turkey, Pork Beef & Lamb, Turkey & Duck, Salmon & Whitefish </p>
                             <p>Packaging: 4 lb, 12 lb, 25 lb </p>
                             <p>Why we like it: This dog food option is great because it is clean and natural. The first
@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="text-section">
-                        <img src="images/product.png" alt="Herbal Flea Shampoo for Dogs & Cats" class="product-order">
+                        <img src="images/herbal-shampoo-preview.png" alt="Herbal Flea Shampoo for Dogs & Cats" class="product-order">
                         <div class="product-order">
                             <h2>Herbal Flea Shampoo for Dogs & Cats</h2>
                             <p>Natural Defense herbal flea shampoo is made from nourishing organic botanical extracts and
@@ -82,7 +82,7 @@
                         <br class="clear" />
                     </div>
                     <div class="text-section">
-                        <img src="images/product.png" alt="Grain-Free Freeze-Dried Cat Food" class="product-order">
+                        <img src="images/cat-food-preview.png" alt="Grain-Free Freeze-Dried Cat Food" class="product-order">
                         <div class="product-order">
                             <h2>Grain-Free Freeze-Dried Cat Food</h2>
                             <p>Caloric Content
