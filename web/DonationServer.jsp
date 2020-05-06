@@ -108,7 +108,7 @@
         conn.commit();
 
         //This command redirect the page to Thank you Donation page.
-        response.sendRedirect("thankyoudonation.html");
+        response.sendRedirect("thankyoudonation.jsp");
 
     } catch (Exception e) {
 
