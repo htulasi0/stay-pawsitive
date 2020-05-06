@@ -17,6 +17,7 @@
 
                 <main>
                     <h1>Donate</h1>
+                    <img src="images/donation.png" alt="Every gift saves lives" id="cover-photo" >
                     <h2>Every Gift Saves Lives!</h2>
                     <p>Since 2020 we have worked with animal lovers like you to protect animals from disasters on a national
                         scale. Stay Pawsitive has helped save thousands of animals in crisis, and you can help too! Your
