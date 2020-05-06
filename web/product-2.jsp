@@ -48,7 +48,7 @@
                         </div>
 
                         <br class="clear" />
-                        <p>Easy defense herbal flea Shampoo & Conditioner is made from nourising organic botanical extracts and natural
+                        <p>Herbal Defense flea Shampoo & Conditioner is made from nourising organic botanical extracts and natural
                             essntial oils to leave your pet's coat clean,soft & shiny. The non-drying formula id perfect for
                             pets of all ages.</p>
                         <p>Highlights: Powerful, safe way to prevent fleas, ticks, and mosquitoes
