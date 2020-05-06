@@ -6,6 +6,8 @@
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.SQLException"%>
+<%@page import="java.text.DecimalFormat
+        "%>
 <!DOCTYPE html>
 <%
     Connection conn = null;
@@ -65,7 +67,6 @@
         String orderShipping = request.getParameter("orderShipping");
         System.out.println("########### orderShipping====" + orderShipping);
 
-
         //Setup the connection with the DB
         String dbURL = "jdbc:derby://localhost:1527/Shopping;create=true";
         String user = "app";
@@ -111,6 +112,10 @@
         preparedStmt2 = conn.prepareStatement(sql2, Statement.RETURN_GENERATED_KEYS);
         preparedStmt2.setInt(1, cId);
 
+        //Fromat order total to 2 digit decimal.
+        double tempOrderTotal = Double.valueOf(orderTotal);
+        DecimalFormat dec = new DecimalFormat("#0.00");
+        orderTotal = dec.format(tempOrderTotal);
         preparedStmt2.setDouble(2, Double.valueOf(orderTotal));
         preparedStmt2.executeUpdate();
 
@@ -132,7 +137,6 @@
             productId = "0";
         }
 
-
         preparedStmt3.setInt(2, Integer.valueOf(productId));
         System.out.println("########### productId====" + productId);
 
@@ -140,22 +144,26 @@
             quantity = "0";
         }
 
-         System.out.println("########### quantity====" + quantity);
+        System.out.println("########### quantity====" + quantity);
         preparedStmt3.setInt(3, Integer.valueOf(quantity));
         if (orderAmount == null || orderAmount.equals("")) {
             orderAmount = "0";
         }
-         System.out.println("########### orderAmount====" + orderAmount);
+
+        double tempOrderAmt = Double.valueOf(orderAmount);
+        DecimalFormat dec = new DecimalFormat("#0.00");
+        orderAmount = dec.format(tempOrderAmt);
+        System.out.println("########### new orderAmount====" + orderAmount);
         preparedStmt3.setDouble(4, Double.valueOf(orderAmount));
+
         preparedStmt3.executeUpdate();
         // If there is no error.
         conn.commit();
 
-
-         session.setAttribute("productId", "");
-            session.setAttribute("productName", "");
-            session.setAttribute("quantity", "");
-            session.setAttribute("price", "");
+        session.setAttribute("productId", "");
+        session.setAttribute("productName", "");
+        session.setAttribute("quantity", "");
+        session.setAttribute("price", "");
         //This command redirect the page to Thank you order page.
         response.sendRedirect("thankyouorder.jsp");
     } catch (Exception e) {
