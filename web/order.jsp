@@ -6,6 +6,8 @@
         <meta charset="utf-8" />
         <meta name="keywords" content="web, website, group project" />
         <title>Stay Pawsitive: Order</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
         <link href="styles/main.css" rel="stylesheet" />
         <link href="styles/order.css" rel="stylesheet" />
         <link href="styles/active-order.css" rel="stylesheet" />
@@ -19,9 +21,9 @@
                 <main>
                 <h1>Your Order:</h1>
                 <div class="text-section">
-                    <img src="images/productsml.png" alt="" class="product-order">
-                    <div class="product-order">
-                        <h3><%= session.getAttribute("productName")%></h3>
+                    <!--<img src="images/productsml.png" alt="" class="product-order"> -->
+                    <div class="product-order-title">
+                        <h2><%= session.getAttribute("productName")%></h2>
                     </div>
                     <div class="quantity-price">
                         <div class="quantity">Quantity: <span id="quantity"><%= session.getAttribute("quantity")%></span></div>
@@ -109,9 +111,9 @@
                                 </div>
                                 <div>
                                     <label for="adr2">Address Second Line:</label>
-                                    <input type="text" id="adr2" name="customerAddress2">
+                                    <input type="text" id="adr2" name="customerAddress2" placeholder="(optional)">
                                     <label for="apt" class="second">Apartment/Suite Number:</label>
-                                    <input type="text" id="apt" name="customerApartment">
+                                    <input type="text" id="apt" name="customerApartment" placeholder="(optional)">
                                 </div>
                                 <div>
                                     <label for="city">City:</label>

@@ -20,6 +20,11 @@ a:hover {
   color: #65B891;
 }
 
+h2 a {
+  color: #325258;
+  text-decoration: none;
+}
+
 header img, header nav {
     float: left;
     margin-right: 20px;
@@ -90,7 +95,7 @@ nav ul li a:hover,
     display: block;
     padding: 20px;
     color: #325258;
-    font-size: x-large;
+    font-size: 18px;
     text-align: center;
     margin: 10px 0;
 }
@@ -128,6 +133,7 @@ br.clear {
     border: 1px solid transparent;
     box-shadow: 0 0 3px 0 #09464d;
     background-color: #93e5ab;
+    font-weight: bold;
 }
 
 .donation-amount button {
@@ -147,6 +153,7 @@ br.clear {
 
 .stars {
     float: right;
+    margin-top: 25px;
 }
 
 footer {

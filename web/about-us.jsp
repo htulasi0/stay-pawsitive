@@ -5,6 +5,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="keywords" content="web, website, group project" />
         <title>Stay Pawsitive: About Us</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
         <link href="styles/main.css" rel="stylesheet" />
         <link href="styles/active-about.css" rel="stylesheet" />
     </head>

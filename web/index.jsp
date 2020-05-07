@@ -5,6 +5,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="keywords" content="web, website, group project" />
         <title>Stay Pawsitive: Home Page</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
         <link href="styles/main.css" rel="stylesheet" />
         <link href="styles/active-home.css" rel="stylesheet" />
     </head>
@@ -25,9 +27,9 @@
                         </p>
                     </div>
                     <div class="gallery">
-                        <img src="images/product.png" alt="product #1">
-                        <img src="images/product.png" alt="product #1">
-                        <img src="images/product.png" alt="product #1">
+                        <img src="images/homepage-1.png" alt="product #1">
+                        <img src="images/homepage-2.png" alt="product #1">
+                        <img src="images/homepage-3.png" alt="product #1">
                     </div>
                 </main>
             </div>

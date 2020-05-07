@@ -4,10 +4,6 @@ form div, .quantity-price div {
     padding-top: 15px;
 }
 
-.product-order {
-    float: left;
-}
-
 .product-order h3 {
     margin-top: 0;
 }
@@ -16,12 +12,19 @@ form div, .quantity-price div {
     font-weight: bolder;
 }
 
+.product-order-title {
+
+}
+
 div.product-order {
-    width: 600px;
+    width: 60%;
     margin-left: 30px;
+    float: right;
+    display: inline-block;
 }
 
 div.quantity-price {
+    margin-top: -50px;
     float: right;
     width: 200px;
 }
