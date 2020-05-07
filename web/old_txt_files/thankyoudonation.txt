@@ -1,4 +1,0 @@
-<main>
-                <h1>Thank you for your gift!</h1>
-                <img src="images/welcome.png" alt="thank you!">
-            </main>
